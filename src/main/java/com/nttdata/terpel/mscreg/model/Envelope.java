@@ -8,13 +8,12 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import java.io.Serializable;
 
 @Getter
 @Setter
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement( name = "Envelope")
-public class Envelope implements Serializable {
+public class Envelope {
 
     @JsonProperty("Header")
     @XmlElement(name = "Header")

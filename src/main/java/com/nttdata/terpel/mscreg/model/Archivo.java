@@ -14,7 +14,7 @@ public class Archivo {
     protected String nombre;
 
     @JsonProperty("Archivo")
-    protected String archivo;
+    protected String archivos;
 
     public String getNombre() {
         return nombre;
@@ -26,10 +26,10 @@ public class Archivo {
 
 
     public String getArchivo() {
-        return archivo;
+        return archivos;
     }
 
     public void setArchivo(String archivo) {
-        this.archivo = archivo;
+        this.archivos = archivo;
     }
 }

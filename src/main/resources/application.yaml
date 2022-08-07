@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ms-creg
+service:
+  dateFormat: yyyy-MM-dd hh:mm:ss
+  controller:
+    path: /archestra-creg/v1.0
+server:
+  port: 8082
